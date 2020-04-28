@@ -1,0 +1,122 @@
+div#center-content{
+    margin: 0 auto;
+    padding: 10px;
+}
+
+div#education-history {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+}
+
+div#employment-history {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div#project-history {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+}
+
+.view_project{
+    background-color: #379683;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    float: right;
+    text-decoration: none;
+}
+
+.content{
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 0.9em;
+}
+
+
+img#vuw {
+    border-radius: 10px;
+    width: 80px;
+    margin-right: 10px;
+}
+
+img#nzesl {
+     width: 100px;
+     margin-right: 10px;
+ }
+
+img#capgym {
+    width: 100px;
+    margin-right: 10px;
+}
+
+img#kapgym {
+    width: 80px;
+    margin-right: 10px;
+}
+
+/* Container for skill bars */
+.skills-container {
+    width: 100%; /* Full width */
+    background-color: #ddd; /* Grey background */
+}
+
+.skills {
+    text-align: right; /* Right-align text */
+    padding-top: 7px; /* Add top padding */
+    padding-bottom: 7px; /* Add bottom padding */
+    color: white; /* White text color */
+}
+
+.blockchain {width: 100%; background-color: #379683;}
+.java {width: 100%; background-color: #379683;}
+.python {width: 100%; background-color: #379683;}
+.data {width: 90%; background-color: #379683;}
+.js {width: 85%; background-color: #379683;}
+.mob {width: 85%; background-color: #379683;}
+.web {width: 85%; background-color: #379683;}
+
+@media (max-width:800px) {
+    .box {
+        width: 100%;
+    }
+    .smallBox {
+        width: 100%;
+    }
+    img#face-pic {
+        border-radius: 70%;
+        width: 100%;
+    }
+
+}
+@media (min-width:800px) {
+    .box {
+        width: 70%;
+    }
+    .smallBox {
+        width: 25%;
+    }
+    img#face-pic {
+        border-radius: 30%;
+        width: 19%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+    div#top-content{
+        position: relative;
+        overflow: auto;
+    }
+    div#skill-set {
+        float: right;
+        margin-right: 5%;
+    }
+
+    div#details {
+        float: left;
+        margin-left: 5%;
+    }
+}
